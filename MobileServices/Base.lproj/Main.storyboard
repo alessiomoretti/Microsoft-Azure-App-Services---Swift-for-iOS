@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MobileServices" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert your data..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="04O-ql-Xyt">
+                                <rect key="frame" x="20" y="149" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Microsoft_logo_(2012)" translatesAutoresizingMaskIntoConstraints="NO" id="eab-z0-kbW">
+                                <rect key="frame" x="284" y="442" width="33" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="e0C-FM-nxi"/>
+                                    <constraint firstAttribute="width" constant="33" id="kWS-qL-TZF"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8HX-9a-DVk">
+                                <rect key="frame" x="139" y="197" width="322" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="322" id="l45-cR-OKk"/>
+                                </constraints>
+                                <state key="normal" title="SEND TO AZURE"/>
+                                <connections>
+                                    <action selector="sendDataToAzure:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QbB-QP-eZI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUA-nV-Tn4">
+                                <rect key="frame" x="203" y="85" width="194" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="194" id="JB2-jr-bhG"/>
+                                    <constraint firstAttribute="height" constant="21" id="wa4-sZ-UsC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Microsoft Azure | Mobile Services" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKf-Kf-bm4">
+                                <rect key="frame" x="168" y="493" width="264" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fOs-hG-Xpc"/>
+                                    <constraint firstAttribute="width" constant="264" id="zFN-oR-Jz5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eab-z0-kbW" firstAttribute="centerX" secondItem="8HX-9a-DVk" secondAttribute="centerX" id="Ace-E0-feW"/>
+                            <constraint firstItem="eab-z0-kbW" firstAttribute="centerX" secondItem="nKf-Kf-bm4" secondAttribute="centerX" id="ESU-S0-Nlo"/>
+                            <constraint firstItem="04O-ql-Xyt" firstAttribute="top" secondItem="UUA-nV-Tn4" secondAttribute="bottom" constant="43" id="Ejs-Hh-81K"/>
+                            <constraint firstItem="nKf-Kf-bm4" firstAttribute="top" secondItem="eab-z0-kbW" secondAttribute="bottom" constant="16" id="RI1-9Z-H5R"/>
+                            <constraint firstItem="UUA-nV-Tn4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="65" id="Vmc-zI-JP5"/>
+                            <constraint firstItem="8HX-9a-DVk" firstAttribute="top" secondItem="04O-ql-Xyt" secondAttribute="bottom" constant="18" id="ZXp-CY-KXK"/>
+                            <constraint firstItem="04O-ql-Xyt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iqU-Uo-k4c"/>
+                            <constraint firstItem="04O-ql-Xyt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="jFY-R7-FJC"/>
+                            <constraint firstItem="04O-ql-Xyt" firstAttribute="centerX" secondItem="UUA-nV-Tn4" secondAttribute="centerX" id="mM7-2e-Tbr"/>
+                            <constraint firstItem="8HX-9a-DVk" firstAttribute="centerX" secondItem="04O-ql-Xyt" secondAttribute="centerX" id="trF-Gp-njb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nKf-Kf-bm4" secondAttribute="bottom" constant="86" id="yCP-iR-XVg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataTextField" destination="04O-ql-Xyt" id="qwo-EB-l1q"/>
+                        <outlet property="infoLabel" destination="UUA-nV-Tn4" id="pxw-8y-XG1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313" y="349"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Microsoft_logo_(2012)" width="427" height="427"/>
+    </resources>
+</document>

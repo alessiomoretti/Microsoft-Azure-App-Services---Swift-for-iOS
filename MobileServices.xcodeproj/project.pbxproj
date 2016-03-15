@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB527F211C8DE15F00BB3625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB527F201C8DE15F00BB3625 /* AppDelegate.swift */; };
+		BB527F231C8DE15F00BB3625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB527F221C8DE15F00BB3625 /* ViewController.swift */; };
+		BB527F261C8DE15F00BB3625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB527F241C8DE15F00BB3625 /* Main.storyboard */; };
+		BB527F281C8DE15F00BB3625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB527F271C8DE15F00BB3625 /* Assets.xcassets */; };
+		BB527F2B1C8DE15F00BB3625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB527F291C8DE15F00BB3625 /* LaunchScreen.storyboard */; };
+		BB527F331C8DE17800BB3625 /* MicrosoftAzureMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB527F321C8DE17800BB3625 /* MicrosoftAzureMobile.framework */; };
+		BB527F371C8DE2AE00BB3625 /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BB527F361C8DE2AE00BB3625 /* Objective-CBridgingHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB527F1D1C8DE15F00BB3625 /* MobileServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB527F201C8DE15F00BB3625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB527F221C8DE15F00BB3625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB527F251C8DE15F00BB3625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB527F271C8DE15F00BB3625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB527F2A1C8DE15F00BB3625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB527F2C1C8DE15F00BB3625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB527F321C8DE17800BB3625 /* MicrosoftAzureMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftAzureMobile.framework; sourceTree = "<group>"; };
+		BB527F351C8DE2AE00BB3625 /* MobileServices-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileServices-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB527F361C8DE2AE00BB3625 /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB527F1A1C8DE15F00BB3625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB527F331C8DE17800BB3625 /* MicrosoftAzureMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB527F141C8DE15F00BB3625 = {
+			isa = PBXGroup;
+			children = (
+				BB527F321C8DE17800BB3625 /* MicrosoftAzureMobile.framework */,
+				BB527F1F1C8DE15F00BB3625 /* MobileServices */,
+				BB527F1E1C8DE15F00BB3625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB527F1E1C8DE15F00BB3625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB527F1D1C8DE15F00BB3625 /* MobileServices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB527F1F1C8DE15F00BB3625 /* MobileServices */ = {
+			isa = PBXGroup;
+			children = (
+				BB527F201C8DE15F00BB3625 /* AppDelegate.swift */,
+				BB527F221C8DE15F00BB3625 /* ViewController.swift */,
+				BB527F241C8DE15F00BB3625 /* Main.storyboard */,
+				BB527F271C8DE15F00BB3625 /* Assets.xcassets */,
+				BB527F291C8DE15F00BB3625 /* LaunchScreen.storyboard */,
+				BB527F2C1C8DE15F00BB3625 /* Info.plist */,
+				BB527F361C8DE2AE00BB3625 /* Objective-CBridgingHeader.m */,
+				BB527F351C8DE2AE00BB3625 /* MobileServices-Bridging-Header.h */,
+			);
+			path = MobileServices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB527F1C1C8DE15F00BB3625 /* MobileServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB527F2F1C8DE15F00BB3625 /* Build configuration list for PBXNativeTarget "MobileServices" */;
+			buildPhases = (
+				BB527F191C8DE15F00BB3625 /* Sources */,
+				BB527F1A1C8DE15F00BB3625 /* Frameworks */,
+				BB527F1B1C8DE15F00BB3625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileServices;
+			productName = MobileServices;
+			productReference = BB527F1D1C8DE15F00BB3625 /* MobileServices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB527F151C8DE15F00BB3625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MSPRoma;
+				TargetAttributes = {
+					BB527F1C1C8DE15F00BB3625 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = DL29C5L9HS;
+					};
+				};
+			};
+			buildConfigurationList = BB527F181C8DE15F00BB3625 /* Build configuration list for PBXProject "MobileServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB527F141C8DE15F00BB3625;
+			productRefGroup = BB527F1E1C8DE15F00BB3625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB527F1C1C8DE15F00BB3625 /* MobileServices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB527F1B1C8DE15F00BB3625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB527F2B1C8DE15F00BB3625 /* LaunchScreen.storyboard in Resources */,
+				BB527F281C8DE15F00BB3625 /* Assets.xcassets in Resources */,
+				BB527F261C8DE15F00BB3625 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB527F191C8DE15F00BB3625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB527F371C8DE2AE00BB3625 /* Objective-CBridgingHeader.m in Sources */,
+				BB527F231C8DE15F00BB3625 /* ViewController.swift in Sources */,
+				BB527F211C8DE15F00BB3625 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB527F241C8DE15F00BB3625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB527F251C8DE15F00BB3625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB527F291C8DE15F00BB3625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB527F2A1C8DE15F00BB3625 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB527F2D1C8DE15F00BB3625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB527F2E1C8DE15F00BB3625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB527F301C8DE15F00BB3625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MobileServices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.msprome.MobileServices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileServices/MobileServices-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB527F311C8DE15F00BB3625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MobileServices/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.msprome.MobileServices;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileServices/MobileServices-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB527F181C8DE15F00BB3625 /* Build configuration list for PBXProject "MobileServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB527F2D1C8DE15F00BB3625 /* Debug */,
+				BB527F2E1C8DE15F00BB3625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB527F2F1C8DE15F00BB3625 /* Build configuration list for PBXNativeTarget "MobileServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB527F301C8DE15F00BB3625 /* Debug */,
+				BB527F311C8DE15F00BB3625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB527F151C8DE15F00BB3625 /* Project object */;
+}
